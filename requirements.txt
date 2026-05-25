@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scikit-learn
+statsmodels
+scipy
+nltk
+textblob
+wordcloud
+streamlit
+imbalanced-learn
+openpyxl
+kaleido
