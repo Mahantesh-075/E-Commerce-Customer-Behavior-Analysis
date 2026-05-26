@@ -202,19 +202,19 @@ ecommerce-behavior-analysis/
 
 #### Flipkart — Discount % vs Profit & Correlation Heatmap
 
-![Discount vs Profit Correlation](outputs/plots/flipkart_discount_profit_correlation.png)
+![Discount vs Profit Correlation](flipkart_discount_profit_correlation.png)
 
 > **Insight:** Sales and profit have a perfect 1.00 correlation. Discount percentage shows near-zero correlation with profit (-0.02), suggesting discounts don't significantly erode margins in this dataset. Quantity is the strongest profit driver (0.57 correlation).
 
 #### Amazon — Price Distribution & Category Breakdown
 
-![Amazon Price Distribution](outputs/plots/amazon_price_distribution.png)
+![Amazon Price Distribution](amazon_price_distribution.png)
 
 > **Insight:** Amazon product prices are heavily right-skewed — the vast majority of products fall under ₹2,000, with Electronics showing the widest price spread (₹200–₹78,000). Computers & Accessories dominate the catalog.
 
 #### Amazon — Discount Patterns by Category
 
-![Amazon Discount by Category](outputs/plots/amazon_discount_by_category.png)
+![Amazon Discount by Category](amazon_discount_by_category.png)
 
 > **Insight:** Musical Instruments and Computers & Accessories offer the steepest discounts (median ~50-55%), while Office Products cluster around single-digit discounts. Home & Kitchen shows the widest discount variance.
 
@@ -226,7 +226,7 @@ Customers are scored on **Recency** (days since last purchase), **Frequency** (u
 
 #### RFM Score Distributions
 
-![RFM Distributions](outputs/plots/rfm_distributions.png)
+![RFM Distributions](rfm_distributions.png)
 
 #### Segment Breakdown
 
@@ -246,7 +246,7 @@ Customers are scored on **Recency** (days since last purchase), **Frequency** (u
 
 #### Elbow Method & Silhouette Analysis
 
-![Elbow and Silhouette](outputs/plots/elbow_silhouette.png)
+![Elbow and Silhouette](elbow_silhouette.png)
 
 | K | Silhouette Score | Selected? |
 |:---:|:---:|:---:|
@@ -280,7 +280,7 @@ Customers with **Monetary ≥ 75th percentile (₹6,93,280)** are labeled as "Hi
 
 #### Confusion Matrices & ROC Curves
 
-![Model Evaluation](outputs/plots/model_evaluation.png)
+![Model Evaluation](model_evaluation.png)
 
 > **Random Forest** achieves near-perfect classification — 100% recall on high-value customers (0 false negatives) with only 1 false positive out of 34 test samples. The ROC-AUC of 0.9956 confirms excellent discriminative power.
 
@@ -367,5 +367,4 @@ streamlit run app.py
 
 <p align="center">
   <b>Built with ❤️ using Python + Data Science</b><br>
-  <i>Campus Placement Portfolio Project</i>
 </p>
